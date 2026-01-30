@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Салон красоты — онлайн-запись</title>
+  <meta name="description" content="Салон красоты. Услуги, онлайн-запись, отзывы. Запишитесь без звонка.">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      color: #222;
+      line-height: 1.6;
+      background: #f7f7f7;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1, h2 {
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-bottom: 12px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 14px 24px;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 16px;
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .booking {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      min-height: 400px;
+      text-align: center;
+      color: #777;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ОФФЕР -->
+  <section>
+    <h1>Салон красоты</h1>
+    <p>Профессиональные услуги и удобная онлайн-запись без звонков.</p>
+    <a href="#booking" class="btn">Записаться онлайн</a>
+  </section>
+
+  <!-- УСЛУГИ -->
+  <section>
+    <h2>Наши услуги</h2>
+    <div class="grid grid-3">
+      <div class="card">Маникюр и педикюр</div>
+      <div class="card">Стрижки и укладки</div>
+      <div class="card">Брови и ресницы</div>
+    </div>
+  </section>
+
+  <!-- ПРЕИМУЩЕСТВА -->
+  <section>
+    <h2>Почему выбирают нас</h2>
+    <div class="grid grid-3">
+      <div class="card">Опытные мастера</div>
+      <div class="card">Удобная онлайн-запись</div>
+      <div class="card">Честные отзывы клиентов</div>
+    </div>
+  </section>
+
+  <!-- КАК ПРОИСХОДИТ ЗАПИСЬ -->
+  <section>
+    <h2>Как проходит запись</h2>
+    <p>1. Выберите услугу</p>
+    <p>2. Выберите мастера и время</p>
+    <p>3. Подтвердите запись онлайн</p>
+  </section>
+
+  <!-- ОНЛАЙН ЗАПИСЬ -->
+  <section id="booking">
+    <h2>Онлайн-запись</h2>
+    <div class="booking">
+      Здесь будет виджет онлайн-записи (YCLIENTS / EasyWeek и т.д.)
+    </div>
+  </section>
+
+  <!-- ОТЗЫВЫ -->
+  <section>
+    <h2>Отзывы клиентов</h2>
+    <p>Отзывы из Google / Zoon / CRM</p>
+  </section>
+
+  <!-- КОНТАКТЫ -->
+  <section>
+    <h2>Контакты</h2>
+    <p>Телефон: +7 (900) 000-00-00</p>
+    <p>WhatsApp / Telegram</p>
+    <p>Адрес: г. ____</p>
+  </section>
+
+  <footer>
+    © Салон красоты
+  </footer>
+
+</body>
+</html>

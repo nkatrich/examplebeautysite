@@ -109,7 +109,15 @@
     }
 
     .grid-3-services {
-      grid-template-columns: repeat(5, 1fr)
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+    }
+
+    .grid-3-services .card {
+      width: 400px;
     }
 
     .card {
@@ -155,6 +163,12 @@
         .offer-content {
             left: 0;
             top: 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .grid-3-services {
+          grid-template-columns: repeat(3, 1fr);
         }
     }
   </style>
